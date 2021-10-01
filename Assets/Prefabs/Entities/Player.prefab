@@ -416,6 +416,46 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Move
       m_Flags: 8
+    - m_Name: WASD
+      m_Id: cb809d00-1d48-4d39-9d80-09923daa3edc
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: up
+      m_Id: 2568394b-3b42-4b50-8238-d73fe51f143b
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: e891f8ec-3bfc-409c-83ac-6e4bf4b9d693
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 1b5bb228-f12b-4d8f-a60e-a393d8cfec03
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 457b5b63-7114-44bc-9c4b-be2129adc349
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
   jump:
     m_Name: Jump
     m_Type: 0
@@ -434,7 +474,23 @@ MonoBehaviour:
       m_Flags: 0
     - m_Name: 
       m_Id: 3c6424f1-effb-492c-8d96-7940b4bde886
-      m_Path: <Keyboard>/z
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Jump
+      m_Flags: 0
+    - m_Name: 
+      m_Id: afb3ccac-a219-46f8-a0be-daa984a997e9
+      m_Path: <Keyboard>/r
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Jump
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 57275a2c-19af-4b19-83c0-951011233748
+      m_Path: <Keyboard>/f
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -458,7 +514,23 @@ MonoBehaviour:
       m_Flags: 0
     - m_Name: 
       m_Id: eb43a22a-7898-45c6-8c2a-10496009e0d9
-      m_Path: <Keyboard>/x
+      m_Path: <Keyboard>/ctrl
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Kick
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 6b7d74fd-841b-4d0f-962c-187da6701cac
+      m_Path: <Keyboard>/shift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Kick
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 6da7baee-a17d-46c9-8901-daf63e046a8c
+      m_Path: <Keyboard>/e
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -483,6 +555,14 @@ MonoBehaviour:
     - m_Name: 
       m_Id: 2c89f09f-fa43-4666-808f-8d58093792ac
       m_Path: <Gamepad>/start
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Respawn Button
+      m_Flags: 0
+    - m_Name: 
+      m_Id: f295f259-6899-4a31-ac14-6a98ec160877
+      m_Path: <Keyboard>/backspace
       m_Interactions: 
       m_Processors: 
       m_Groups: 
